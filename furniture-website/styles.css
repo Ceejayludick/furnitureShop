@@ -1,6 +1,6 @@
 body {
-  margin: 1%;
-  border: 0%;
+  margin: 2%;
+  border: 10%;
   padding: 1%;
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -9,6 +9,7 @@ body {
 /* Create a top navigation bar with a black background color  */
 .navbar {
   background-color: #61b5e1;
+  position: sticky;
   overflow: hidden;
 }
 
@@ -35,16 +36,6 @@ body {
   color: white;
 }
 
-img {
-  border-radius: 50%;
-  vertical-align: middle;
-  width: 50px;
-  height: 50px;
-  margin: 5px;
-  padding: 0px;
-  border: 0px;
-}
-
 .flex-container {
   display: flex;
   flex-direction: row;
@@ -53,5 +44,29 @@ img {
   padding: 2%;
   width: 50rem;
   margin: 5%;
-  border-radius: 20px;
+  border-radius: 50%;
+}
+
+.image2 {
+  width: 500px;
+  margin: 2.5%;
+  border: 1%;
+  padding: 0%;
+  justify-content: center;
+}
+
+h2 {
+  margin: 1.5%;
+  border: 1%;
+  padding: 0%;
+  display: flex;
+  justify-content: center;
+}
+
+.iframe {
+  margin: 1.5%;
+  border: 1%;
+  padding: 0%;
+  display: flex;
+  justify-content: center;
 }
