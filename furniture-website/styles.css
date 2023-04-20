@@ -32,8 +32,13 @@ body {
 /* Create a right-aligned (split) link inside the navigation bar */
 .navbar a.split {
   float: right;
-  background-color: #aed1eb;
+  background-color: #4a6483;
   color: white;
+}
+
+.navbar a.shop {
+  background-color: #aed1eb;
+  color: black;
 }
 
 .flex-container {
@@ -53,6 +58,7 @@ body {
   border: 1%;
   padding: 0%;
   justify-content: center;
+  height: auto;
 }
 
 h2 {
@@ -67,10 +73,15 @@ h2 {
   margin: 1.5%;
   border: 1%;
   padding: 0%;
+  height: auto;
   display: flex;
   justify-content: center;
 }
 
 p {
   line-height: 1.5;
+}
+
+#class {
+  background-color: bisque;
 }
