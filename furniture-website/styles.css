@@ -101,7 +101,7 @@ p {
 }
 
 header {
- position:absolute;
+ position: absolute;
  height: 80px; 
   width: 100%;
   z-index: -1;
