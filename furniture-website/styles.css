@@ -90,3 +90,21 @@ p {
 #class {
   background-color: bisque;
 }
+
+.hero-section {
+  width: 100%;
+  height: calc(100vh - 120px);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+ position:absolute;
+ height: 80px; 
+  width: 100%;
+  z-index: -1;
+
+}
+
