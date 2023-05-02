@@ -101,11 +101,10 @@ p {
 }
 
 header {
- position: absolute;
- height: 80px; 
+  position: absolute;
+  height: 80px; 
   width: 100%;
   z-index: -1;
-
 }
 
 .product {
