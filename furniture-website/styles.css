@@ -71,6 +71,16 @@ h2 {
   justify-content: center;
 }
 
+img{
+  width: 250px;
+}
+
+.logo{
+  width: fit-content;
+}
+ 
+
+
 .iframe {
   margin: 1.5%;
   border: 1%;
@@ -98,6 +108,42 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.icon2{
+  border-radius:50% 50% 0 0;
+  height:200px; 
+  width:600px;
+}
+
+.gmail{
+  border-radius:50%;
+  height:100px; 
+  width:100px;
+}
+
+.linkedin{
+  border-radius:50%;
+  height:100px; 
+  width:100px;
+}
+
+.github{
+  border-radius:50%;
+  height:100px; 
+  width:100px;
+}
+
+.youtube{
+  border-radius:50%;
+  height:100px; 
+  width:100px;
+}
+
+.instagram{
+  border-radius:50%;
+  height:100px; 
+  width:100px;
 }
 
 header {
@@ -202,3 +248,4 @@ header {
   font-weight: 900;
   font-size: 20px;
 }
+
